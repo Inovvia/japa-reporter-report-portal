@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": false,
+    "noImplicitAny": true,
+    "moduleResolution": "bundler",
+    "downlevelIteration": true,
+    "declaration": true,
+    "lib": ["es2022"],
+    "module": "esnext",
+    "skipLibCheck": true,
+    "target": "es2022",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "typeRoots": ["node_modules/@types", "./src/types"],
+    "outDir": "./build",
+    "strict": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "tests", "build"]
+}

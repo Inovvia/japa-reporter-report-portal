@@ -1,0 +1,30 @@
+# Source files (we only publish build/)
+src/
+tests/
+
+# Config files
+tsconfig.json
+tsconfig.test.json
+.eslintrc*
+.prettierrc*
+
+# Development files
+.env*
+*.log
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation (keep README and LICENSE)
+CONTRIBUTING.md
+
+# CI/CD
+.github/
