@@ -9,11 +9,11 @@
 > Report Portal reporter for the [Japa](https://japa.dev) test framework. Send your test results to [Report Portal](https://reportportal.io/) for centralized test reporting and analytics.
 
 <p align="center">
-  <img src="https://japa.dev/logo.svg" alt="Japa" width="80" />
+  <strong>Japa</strong>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <span style="font-size: 48px;">→</span>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://reportportal.io/static/media/logo-big.a1a2dc2a.svg" alt="Report Portal" width="200" />
+  <strong>Report Portal</strong>
 </p>
 
 ---
