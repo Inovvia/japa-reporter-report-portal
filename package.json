@@ -1,68 +1,68 @@
 {
-  "name": "@inovvia/japa-reporter-report-portal",
-  "version": "1.0.0",
-  "description": "Report Portal reporter for Japa test framework",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
-  "type": "module",
-  "exports": {
-    ".": {
-      "import": "./build/index.js",
-      "require": "./build/index.js"
-    }
-  },
-  "files": [
-    "/build"
-  ],
-  "scripts": {
-    "build": "npm run clean && tsc",
-    "clean": "rimraf ./build",
-    "lint": "eslint \"src/**/*.ts\"",
-    "format": "npm run lint -- --fix",
-    "test": "node --import tsx --enable-source-maps --test tests/*.spec.ts",
-    "test:build": "npm run build && node --test build/tests/*.spec.js",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@reportportal/client-javascript": "^5.5.8"
-  },
-  "peerDependencies": {
-    "@japa/runner": "^5.0.0"
-  },
-  "devDependencies": {
-    "@japa/assert": "^4.0.0",
-    "@japa/runner": "^5.0.0",
-    "@types/node": "^20.11.17",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
-    "eslint": "^8.56.0",
-    "rimraf": "^3.0.2",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inovvia/japa-reporter-report-portal.git"
-  },
-  "keywords": [
-    "japa",
-    "reportportal",
-    "report-portal",
-    "reporter",
-    "test",
-    "testing",
-    "test-reporter",
-    "test-results",
-    "adonisjs",
-    "nodejs"
-  ],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/inovvia/japa-reporter-report-portal/issues"
-  },
-  "homepage": "https://github.com/inovvia/japa-reporter-report-portal#readme",
-  "engines": {
-    "node": ">=18.16.0"
-  }
+	"name": "@inovvia/japa-reporter-report-portal",
+	"version": "1.0.1",
+	"description": "Report Portal reporter for Japa test framework",
+	"main": "build/index.js",
+	"types": "build/index.d.ts",
+	"type": "module",
+	"exports": {
+		".": {
+			"import": "./build/index.js",
+			"require": "./build/index.js"
+		}
+	},
+	"files": [
+		"/build"
+	],
+	"scripts": {
+		"build": "npm run clean && tsc",
+		"clean": "rimraf ./build",
+		"lint": "eslint \"src/**/*.ts\"",
+		"format": "npm run lint -- --fix",
+		"test": "node --import tsx --enable-source-maps --test tests/*.spec.ts",
+		"test:build": "npm run build && node --test build/tests/*.spec.js",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@reportportal/client-javascript": "^5.5.8"
+	},
+	"peerDependencies": {
+		"@japa/runner": "^5.0.0"
+	},
+	"devDependencies": {
+		"@japa/assert": "^4.0.0",
+		"@japa/runner": "^5.0.0",
+		"@types/node": "^20.11.17",
+		"@typescript-eslint/eslint-plugin": "^6.21.0",
+		"@typescript-eslint/parser": "^6.21.0",
+		"eslint": "^8.56.0",
+		"rimraf": "^3.0.2",
+		"tsx": "^4.7.0",
+		"typescript": "^5.3.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inovvia/japa-reporter-report-portal.git"
+	},
+	"keywords": [
+		"japa",
+		"reportportal",
+		"report-portal",
+		"reporter",
+		"test",
+		"testing",
+		"test-reporter",
+		"test-results",
+		"adonisjs",
+		"nodejs"
+	],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inovvia/japa-reporter-report-portal/issues"
+	},
+	"homepage": "https://github.com/inovvia/japa-reporter-report-portal#readme",
+	"engines": {
+		"node": ">=18.16.0"
+	}
 }
